@@ -16,7 +16,7 @@ import pandas as pd
 
 # SEC REQUIRES a real identifying User-Agent. Replace with YOUR name/email.
 # Requests without this get blocked.
-HEADERS = {"User-Agent": "YourName research-script yourname@example.com"}
+HEADERS = {"User-Agent": "Stephen research-script lim.stephen@gmail.com"}
 
 BASE_URL = "https://data.sec.gov/api/xbrl/frames/us-gaap/{tag}/USD/{period}.json"
 CACHE_PATH = Path("data/sec_edgar/refinancing_wall.csv")
